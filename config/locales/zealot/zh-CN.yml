@@ -1,4 +1,22 @@
 zh-CN:
+  menu:
+    function_section: 功能区域
+    dashboard: 控制台
+    apps: 应用管理
+    debug_files: 调试文件管理
+
+    toolbox_section: 工具箱
+    teardown: 文件解析
+    fetch_ios_udid: 获取 iOS 设备 UDID
+
+    admin_section: 管理面板
+    users: 用户管理
+    web_hooks: 网络钩子管理
+    system_settings: 系统设置
+    system_info: 监控
+    enviroments: 环境信息
+    background_jobs: 后台任务
+    database_analytics: 数据库分析
   admin:
     settings:
       general: 通用配置
@@ -20,6 +38,25 @@ zh-CN:
       submit:
         create: 新增设置
         update: 更新设置
+
+  dashboard:
+    title: 我的控制台
+    analytics:
+      apps: 应用
+      debug_files: 调试文件
+      teardowns: 文件解析
+      uploads: 上传次数
+      web_hooks: 网络钩子
+      users: 用户
+      background_jobs: 后台任务
+      disk_usage: 空间占用
+    timeline:
+      title: 上传时间线
+      upload_release: 上传了新版本 %{release_version} (%{build_version})
+      not_found: 没有任何上传，快快上传吧。
+
+  apps:
+
 
   datetime:
     distance_in_words:
